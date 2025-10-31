@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cyber-style — Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">CYBER<span>2077</span></div>
+      <nav class="main-nav" id="mainNav">
+        <a href="#" class="active">Home</a>
+        <a href="#">Games</a>
+        <a href="#">Media</a>
+        <a href="#">News</a>
+        <a href="#">Community</a>
+      </nav>
+
+      <button id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Welcome to the dark future</h1>
+          <p>Immerse yourself in the Cyberpunk universe — stories from Night City, shows, and games.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#">Buy now</a>
+            <a class="btn ghost" href="#">Watch trailer</a>
+          </div>
+
+          <div class="platforms">
+            <img alt="pc" src="https://via.placeholder.com/80x40?text=PC" />
+            <img alt="ps5" src="https://via.placeholder.com/80x40?text=PS5" />
+            <img alt="xbox" src="https://via.placeholder.com/80x40?text=Xbox" />
+            <img alt="switch" src="https://via.placeholder.com/80x40?text=Switch" />
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img class="hero-art" alt="night city" src="https://via.placeholder.com/720x420?text=Night+City+Art" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights / Grid -->
+    <section class="cards container">
+      <article class="card">
+        <img alt="game" src="https://via.placeholder.com/480x260?text=Cyberpunk+2077" />
+        <h3>Cyberpunk 2077</h3>
+        <p>Original storyline, powerful expansion, and packed updates.</p>
+        <a class="read-more" href="#">Learn more →</a>
+      </article>
+
+      <article class="card">
+        <img alt="expansion" src="https://via.placeholder.com/480x260?text=Phantom+Liberty" />
+        <h3>Phantom Liberty</h3>
+        <p>A spy-thriller expansion packed with new missions and characters.</p>
+        <a class="read-more" href="#">Learn more →</a>
+      </article>
+
+      <article class="card">
+        <img alt="anime" src="https://via.placeholder.com/480x260?text=Edgerunners" />
+        <h3>Cyberpunk: Edgerunners</h3>
+        <p>Award-winning anime exploring new stories in Night City.</p>
+        <a class="read-more" href="#">Learn more →</a>
+      </article>
+    </section>
+
+    <!-- News / Newsletter -->
+    <section class="news container">
+      <div class="news-left">
+        <h2>Latest News</h2>
+        <ul class="news-list">
+          <li><strong>Update 2.3</strong> — Patch notes available now.</li>
+          <li><strong>Photo Mode Contest</strong> — Submit your best shots.</li>
+          <li><strong>PlayStation Plus</strong> — Cyberpunk joins the catalog.</li>
+        </ul>
+        <a class="btn" href="#">More news</a>
+      </div>
+
+      <aside class="newsletter">
+        <h3>Sign up for the newsletter</h3>
+        <p>Get news and announcements about Cyberpunk 2077.</p>
+        <form id="newsletterForm">
+          <label for="email" class="sr-only">Email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required />
+          <label class="checkbox"><input type="checkbox" id="consent" required /> I am 16 or older</label>
+          <button class="btn primary" type="submit">Submit</button>
+        </form>
+        <p class="small">This is a prototype. Data won’t be sent anywhere.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Prototype — not affiliated with CD PROJEKT.</div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
