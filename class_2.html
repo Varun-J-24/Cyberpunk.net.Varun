@@ -4,18 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Cyber-style — Prototype</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="class_2.css" />
+
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <div class="logo">CYBER<span>2077</span></div>
+      <div class="logo">DYSTOPIA<span>2099</span></div>
       <nav class="main-nav" id="mainNav">
-        <a href="#" class="active">Home</a>
-        <a href="#">Games</a>
-        <a href="#">Media</a>
-        <a href="#">News</a>
-        <a href="#">Community</a>
+        <a href="http://127.0.0.1:3000/class_2.html" class="active">Home</a>
+        <a href="U.png">Games</a>
+        <a href="http://127.0.0.1:3000/class_2.html">Media</a>
+        <a href="http://127.0.0.1:3000/class_2.html">News</a>
+        <a href="http://127.0.0.1:3000/class_2.html">Community</a>
       </nav>
 
       <button id="menuToggle" aria-label="Toggle menu">☰</button>
@@ -23,70 +24,64 @@
   </header>
 
   <main>
-    <!-- Hero -->
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-left">
           <h1>Welcome to the dark future</h1>
-          <p>Immerse yourself in the Cyberpunk universe — stories from Night City, shows, and games.</p>
+          <p>Immerse yourself in the Dystopian universe — stories from Night City, shows, and games.</p>
           <div class="hero-ctas">
-            <a class="btn primary" href="#">Buy now</a>
-            <a class="btn ghost" href="#">Watch trailer</a>
+            <a class="btn primary" href="ps5.png">Buy now</a>
+            <a class="btn ghost" href="video.mp4">Watch trailer</a>
           </div>
 
           <div class="platforms">
-            <img alt="pc" src="https://via.placeholder.com/80x40?text=PC" />
-            <img alt="ps5" src="https://via.placeholder.com/80x40?text=PS5" />
-            <img alt="xbox" src="https://via.placeholder.com/80x40?text=Xbox" />
-            <img alt="switch" src="https://via.placeholder.com/80x40?text=Switch" />
+            <img alt="pc" src="ps5.png" width="400" height="500" />
           </div>
         </div>
 
         <div class="hero-right">
-          <img class="hero-art" alt="night city" src="https://via.placeholder.com/720x420?text=Night+City+Art" />
+          <img class="hero-art" alt="night city" src="night_life.png" />
         </div>
       </div>
     </section>
-
-    <!-- Highlights / Grid -->
     <section class="cards container">
       <article class="card">
-        <img alt="game" src="https://via.placeholder.com/480x260?text=Cyberpunk+2077" />
-        <h3>Cyberpunk 2077</h3>
+        <img alt="game" src="I.png">
+        <h3>DYSTOPIA 2099</h3>
         <p>Original storyline, powerful expansion, and packed updates.</p>
-        <a class="read-more" href="#">Learn more →</a>
+        <a class="read-more" href="http://127.0.0.1:3000/class_2.html">Learn more →</a>
       </article>
 
       <article class="card">
-        <img alt="expansion" src="https://via.placeholder.com/480x260?text=Phantom+Liberty" />
-        <h3>Phantom Liberty</h3>
+        <img alt="expansion" src="U.png" />
+        <h3>PUNISHER FURY</h3>
         <p>A spy-thriller expansion packed with new missions and characters.</p>
-        <a class="read-more" href="#">Learn more →</a>
+        <a class="read-more" href="http://127.0.0.1:3000/class_2.html">Learn more →</a>
       </article>
 
       <article class="card">
-        <img alt="anime" src="https://via.placeholder.com/480x260?text=Edgerunners" />
-        <h3>Cyberpunk: Edgerunners</h3>
+        <video width="530" height="360" autoplay loop muted>
+        <source src="video.mp4" type="video/mp4">
+        </video>
+        <h3>Dystopia: Edgerunners</h3>
         <p>Award-winning anime exploring new stories in Night City.</p>
-        <a class="read-more" href="#">Learn more →</a>
+        <a class="read-more" href="video.mp4">Learn more →</a>
       </article>
     </section>
-
-    <!-- News / Newsletter -->
     <section class="news container">
       <div class="news-left">
         <h2>Latest News</h2>
         <ul class="news-list">
           <li><strong>Update 2.3</strong> — Patch notes available now.</li>
           <li><strong>Photo Mode Contest</strong> — Submit your best shots.</li>
-          <li><strong>PlayStation Plus</strong> — Cyberpunk joins the catalog.</li>
+          <li><strong>PlayStation Plus</strong> — Dystopia joins the catalog.</li>
         </ul>
-        <a class="btn" href="#">More news</a>
+        <a class="btn" href="http://127.0.0.1:3000/class_2.html">More news</a>
       </div>
 
       <aside class="newsletter">
         <h3>Sign up for the newsletter</h3>
-        <p>Get news and announcements about Cyberpunk 2077.</p>
+        <p>Get news and announcements about Dystopia 2099.</p>
         <form id="newsletterForm">
           <label for="email" class="sr-only">Email</label>
           <input id="email" name="email" type="email" placeholder="Enter your email" required />
@@ -100,15 +95,13 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div>© <span id="year"></span> Prototype — not affiliated with CD PROJEKT.</div>
+      <div>© <span id="year"></span>DYSTOPIA 2099 coming soon</div>
       <div class="footer-links">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Contact</a>
+        <a href="http://127.0.0.1:3000/class_2.html">Privacy</a>
+        <a href="http://127.0.0.1:3000/class_2.html">Terms</a>
+        <a href="http://127.0.0.1:3000/class_2.html">Contact</a>
       </div>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
